@@ -1,0 +1,13 @@
+<?php
+
+function specialsort_views_pre_render(&$view) {
+
+   if ($view->name=='xyzzy') {
+
+      // modify/sort the $view->result array to your heart's content here
+      // for example, reverse it...
+      $view->result=array_reverse($view->result);
+
+   }
+
+ }

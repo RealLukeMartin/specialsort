@@ -1,0 +1,4 @@
+name = Special Sort
+description = Sort text fields in special ways
+package = Poetic
+core = 7.x
